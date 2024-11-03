@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+header li{
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.container{
+    width: 1380px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    width: 100%;
+    /* comentarrio no css*/
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin: 16px 0;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a{
+    font-family: sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0,255 green,0 blue, 0.1alpha);
+
+}
+
+#sports .articles article a{
+    background-color: #009432;
+}
+
+#economy{
+    background-color: #fffa65;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#entretenimento{
+    background-color: rgba(0,255 rgba(255, 115, 0, 0.5),0 blue, 0.1alpha);
+
+}
+
+#entretenimento .articles article a{
+    background-color: #ff8102;
+}
+
+#tecnologia{
+    background-color: rgba(0,255 rgba(0, 157, 255, 0.682),0 blue, 0.1alpha);
+
+}
+
+#tecnologia .articles article a{
+    background-color: #0220ff;
+}
